@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import joblib
 from joblib import load
-model_path = "/Users/SalmaDkier/TechnoDeployment/savedModels/model.joblib"
+model_path = "/Users/SalmaDkier/Desktop/TechnoDeployment/savedModels/model.joblib"
 model = joblib.load(model_path)
 
 
